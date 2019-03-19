@@ -1,6 +1,5 @@
 ^clusterProfiler\.Rproj$
 ^\.Rproj\.user$
-figures/dotplot-richFactor.png
 README.md
 Makefile
 figures
