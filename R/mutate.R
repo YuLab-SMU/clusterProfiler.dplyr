@@ -8,3 +8,7 @@ mutate.enrichResult <- function(.data, ...) {
     .data@result %<>% mutate(!!!dots)
     return(.data)
 }
+
+##' @method mutate gseaResult
+##' @export
+mutate.gseaResult <- mutate.enrichResult
