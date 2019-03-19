@@ -40,6 +40,6 @@ y <- mutate(x, richFactor = Count/N)
 dotplot(y, x = "richFactor")
 ```
 
-![](figures)(dotplot-richFactor.png)
+![](figures/dotplot-richFactor.png)
 
 
