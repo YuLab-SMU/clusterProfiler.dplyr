@@ -5,7 +5,14 @@
 \alias{reexports}
 \alias{\%>\%}
 \alias{\%<>\%}
+\alias{arrange}
+\alias{filter}
+\alias{group_by}
 \alias{mutate}
+\alias{n}
+\alias{rename}
+\alias{select}
+\alias{summarise}
 \title{Objects exported from other packages}
 \keyword{internal}
 \description{
@@ -13,7 +20,7 @@ These objects are imported from other packages. Follow the links
 below to see their documentation.
 
 \describe{
-  \item{dplyr}{\code{\link[dplyr]{mutate}}}
+  \item{dplyr}{\code{\link[dplyr]{arrange}}, \code{\link[dplyr]{filter}}, \code{\link[dplyr]{group_by}}, \code{\link[dplyr]{mutate}}, \code{\link[dplyr]{n}}, \code{\link[dplyr]{rename}}, \code{\link[dplyr]{select}}, \code{\link[dplyr]{summarise}}}
 
   \item{magrittr}{\code{\link[magrittr]{\%>\%}}, \code{\link[magrittr]{\%<>\%}}}
 }}
