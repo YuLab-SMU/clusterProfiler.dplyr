@@ -1,4 +1,5 @@
 ##' @method select enrichResult
+##' @importFrom dplyr select
 ##' @export
 select.enrichResult <- function(.data, ...) {
     dots <- quos(...)
