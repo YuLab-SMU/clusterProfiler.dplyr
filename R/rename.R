@@ -10,3 +10,11 @@ rename.enrichResult <- function(.data, ...) {
 ##' @method rename gseaResult
 ##' @export
 rename.gseaResult <- rename.enrichResult
+
+##' @method rename compareClusterResult
+##' @export
+rename.compareClusterResult <- function(.data, ...) {
+    dots <- quos(...)
+    .data@compareClusterResult %<>% rename(!!!dots,)
+    return(.data)
+}

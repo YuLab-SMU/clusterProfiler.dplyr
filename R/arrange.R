@@ -12,3 +12,10 @@ arrange.enrichResult <- function(.data, ...) {
 arrange.gseaResult <- arrange.enrichResult
 
 
+##' @method arrange compareClusterResult
+##' @export
+arrange.compareClusterResult <- function(.data, ...) {
+    dots <- quos(...)
+    .data@compareClusterResult %<>% arrange(!!!dots,)
+    return(.data)
+}

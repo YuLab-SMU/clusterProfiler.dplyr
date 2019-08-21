@@ -11,3 +11,11 @@ select.enrichResult <- function(.data, ...) {
 ##' @export
 select.gseaResult <- select.enrichResult
 
+
+##' @method select compareClusterResult
+##' @export
+select.compareClusterResult <- function(.data, ...) {
+    dots <- quos(...)
+    .data@compareClusterResult %<>% select(!!!dots,)
+    return(.data)
+}

@@ -1,6 +1,6 @@
 Package: clusterProfiler.dplyr
 Title: 'dplyr' Verbs for 'clusterProfiler' Results
-Version: 0.0.1
+Version: 0.0.2
 Authors@R:  person("Guangchuang", "Yu",   email = "guangchuangyu@gmail.com", role = c("aut", "cre", "cph"), comment = c(ORCID = "0000-0002-6485-8781"))
 Description: What the package does (one paragraph).
 Depends: R (>= 3.5.0)

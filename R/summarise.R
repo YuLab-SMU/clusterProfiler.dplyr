@@ -9,3 +9,10 @@ summarise.enrichResult <- function(.data, ...) {
 ##' @method summarise gseaResult
 ##' @export
 summarise.gseaResult <- summarise.enrichResult
+
+##' @method summarise compareClusterResult
+##' @export
+summarise.compareClusterResult <- function(.data, ...) {
+    dots <- quos(...)
+    .data@compareClusterResult %>% summarise(!!!dots)
+}
