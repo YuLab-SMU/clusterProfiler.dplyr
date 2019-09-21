@@ -35,6 +35,10 @@ dplyr::rename
 ##' @export
 dplyr::select
 
+##' @importFrom dplyr slice
+##' @export
+dplyr::slice
+
 ##' @importFrom dplyr summarise
 ##' @export
 dplyr::summarise
